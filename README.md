@@ -3,6 +3,10 @@
 ### Surge: [Click Here](http://career-hub-rootnure.surge.sh)
 
 
+# Topics Covered
+- Dynamic Title set depending on Route
+- Google Map Integration
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

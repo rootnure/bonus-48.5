@@ -15,4 +15,6 @@ const saveJobApplication = id => {
     return true;
 }
 
-export { saveJobApplication, storedAppliedJobs }
+const googleMapAPI = "";
+
+export { saveJobApplication, storedAppliedJobs, googleMapAPI }

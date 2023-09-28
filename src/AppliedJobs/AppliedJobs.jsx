@@ -1,6 +1,7 @@
 import { useLoaderData } from "react-router-dom";
 import { storedAppliedJobs } from "../localstorage";
 import { useEffect, useState } from "react";
+import { Helmet } from "react-helmet-async";
 
 
 const AppliedJobs = () => {
@@ -38,6 +39,9 @@ const AppliedJobs = () => {
     }, [jobs]);
     return (
         <section>
+            <Helmet>
+                <title>Applied Jobs | Career Hub</title>
+            </Helmet>
             <h2 className="text-4xl font-bold">Jobs I Have Applied: {appliedJobs.length}</h2>
 
             <details className="dropdown relative">
