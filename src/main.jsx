@@ -6,9 +6,9 @@ import Root from './Root/Root'
 import Home from './Home/Home'
 import ErrorPage from './ErrorPage/ErrorPage'
 import JobDetails from './JobDetails/JobDetails'
-import FeaturedJobs from './FeaturedJobs/FeaturedJobs'
 import AppliedJobs from './AppliedJobs/AppliedJobs'
 import { HelmetProvider } from 'react-helmet-async'
+import AllFeaturedJobs from './AllFeaturedJobs/AllFeaturedJobs'
 
 const router = createBrowserRouter([
   {
@@ -22,7 +22,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/jobs',
-        element: <FeaturedJobs></FeaturedJobs>
+        element: <AllFeaturedJobs></AllFeaturedJobs>
       },
       {
         path: '/applied',
